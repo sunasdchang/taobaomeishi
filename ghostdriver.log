@@ -1,0 +1,13 @@
+[INFO  - 2018-06-20T06:17:33.140Z] GhostDriver - Main - running on port 13205
+[INFO  - 2018-06-20T06:17:37.580Z] Session [a0e8e270-7451-11e8-9826-c500f5c71fbb] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":false,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-06-20T06:17:37.581Z] Session [a0e8e270-7451-11e8-9826-c500f5c71fbb] - page.customHeaders:  - {}
+[INFO  - 2018-06-20T06:17:37.581Z] Session [a0e8e270-7451-11e8-9826-c500f5c71fbb] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-06-20T06:17:37.581Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a0e8e270-7451-11e8-9826-c500f5c71fbb
+[ERROR - 2018-06-20T06:17:41.232Z] Session [a0e8e270-7451-11e8-9826-c500f5c71fbb] - page.onError - msg: kg/component/6.2.3/extension/content-box/xtpl/view.xtpl is not loaded! can not find module in path : https://g.alicdn.com/kg/??component/6.2.3/extension/content-box/xtpl/view.xtpl-min.js
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-06-20T06:17:41.233Z] Session [a0e8e270-7451-11e8-9826-c500f5c71fbb] - page.onError - stack:
+  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,tb/tracker/4.2.1/p/index/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.3.5/index.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-06-20T06:22:33.159Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
